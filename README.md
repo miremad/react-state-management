@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ### `yarn`
 
-After cloning the project you should use this command to install dependencies and create node_module directory.
+After cloning the project you should use this command in the root directory of project to install dependencies and create node_module directory.
 
 ### `yarn start`
 
