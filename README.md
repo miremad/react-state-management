@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with create vite react-ts
 
 This project was bootstrapped with Vite.
 clone the project.
