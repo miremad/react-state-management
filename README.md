@@ -4,6 +4,7 @@ This project was bootstrapped with Vite.
 clone the project.
 
 ## Available Scripts
+
 In the project directory, you can run:
 
 ### `yarn`
@@ -26,6 +27,22 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Testing
 
+In this application we have two parts
 
+1. forms
+2. carts to show data
+
+We have two form with different data. If we submit each one of forms, we will see the form data in a cart as serialized JSON.
+
+This state management system stores data as list of key-value object that value is implemented as a generic object.
+
+In this application, the page is divided to different parts and component to show the accessibility of data.
+
+This state management system has a hook named "useSharedSimpleState" that returns to property:
+
+1. data:
+   to retrieve data
+2. storeDate({key, value}):
+   to save data that takes key and value as argument.
